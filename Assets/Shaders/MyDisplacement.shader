@@ -67,7 +67,7 @@ Shader "Custom/MyDisplacement"
                 o.uv = TRANSFORM_TEX(v.uv, _MainTex);
 
                 float4 temp = float4(v.vertex.x, v.vertex.y, v.vertex.z, 1.0);
-                temp.y += sin((offset + phaze) * 3.14159) * _WaveStrength;
+                temp.y += round(sin((offset + phaze) * 3.14159) * _WaveStrength);
 
                 o.vertex = UnityObjectToClipPos(temp);
 

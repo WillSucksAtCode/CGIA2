@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Displacement
-  m_Shader: {fileID: 4800000, guid: 173c5cdffe44c3c44b5090589d71209a, type: 3}
+  m_Name: Outline
+  m_Shader: {fileID: 4800000, guid: bd3f4f6c1bf603545a6af26e2b90db6d, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -20,26 +20,13 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _FoamTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 9cbd0a8d5c8ac63499ee1ee4035c4c43, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _RampTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Glossiness: 0.5
-    - _Metallic: 0
-    - _ScrollX: 1
-    - _ScrollY: 1
-    - _WaveSpeed: 10
-    - _WaveStrength: 1
+    - _Outline: 0.261
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
