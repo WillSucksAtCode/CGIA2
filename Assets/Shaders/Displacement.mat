@@ -38,8 +38,12 @@ Material:
     - _Metallic: 0
     - _ScrollX: 1
     - _ScrollY: 1
+    - _UseColor: 0.036
+    - _WaveAmplitude: 1
+    - _WaveFrequency: 200
     - _WaveSpeed: 10
     - _WaveStrength: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0, g: 0.5760212, b: 1, a: 1}
+    - _RGBColor: {r: 1, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
