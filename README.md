@@ -75,9 +75,9 @@ half4 c = tex2D(_MainTex, IN.uv_MainTex) *
 _Color;
 o.Albedo = c.rgb;
 o.Alpha = c.a;
-} <b>
+} </b>
     
-    One shader I find particularly interesting is the scrolling texture shader. A scroll effect is achieved by first getting a texture, and two floats for scroll intensity in both directions.
+One shader I find particularly interesting is the scrolling texture shader. A scroll effect is achieved by first getting a texture, and two floats for scroll intensity in both directions.
 Multiply the two intensity floats by time, and then use those two values to update the UV values and create a scrolling effect. This can be used in a multitude of ways, the first obvious example being water, but it's also useful for things like tv screens, or message boards.
 
 ![scrolling flow chart](https://user-images.githubusercontent.com/92412422/228527662-215a0cbd-3ddb-459b-a6eb-b10a5b2d91d8.png)
